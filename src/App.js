@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
-import shoppingPic from "./img/shopping.png";
-import "./App.css";
 import { useState } from "react";
+import "./App.css";
+import shoppingPic from "./img/shopping.png";
 
 function App() {
   const [data, setData] = useState(null);
@@ -65,7 +64,7 @@ function App() {
             </button>
           </div>
           <div className="btn-parent">
-            <button className="btn" onClick={() => getProduct("nonfat-water")}>
+            <button className="btn" onClick={() => getProduct("debug-sentry")}>
               Nonfat Water
             </button>
           </div>
